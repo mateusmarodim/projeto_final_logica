@@ -5,18 +5,16 @@
   <columns>
    <connections preferredWidth="175" />
    <irq preferredWidth="34" />
-   <name preferredWidth="314" />
   </columns>
  </systemtable>
  <clocktable>
   <columns>
-   <clockname preferredWidth="541" />
-   <clocksource preferredWidth="539" />
-   <frequency preferredWidth="526" />
+   <clockname preferredWidth="538" />
+   <clocksource preferredWidth="536" />
+   <frequency preferredWidth="532" />
   </columns>
  </clocktable>
- <library
-   expandedCategories="Project/System,Library/Peripherals/Microcontroller Peripherals,Project/Terasic Technologies Inc,Library/Peripherals,Library,Project" />
+ <library expandedCategories="Project,Library" />
  <window width="1920" height="1020" x="0" y="0" />
  <hdlexample language="VERILOG" />
  <generation
