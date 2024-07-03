@@ -103,7 +103,7 @@ VCCA_PLL1                    : AA8       : power  :                   : 1.2V    
 SRAM_DQ[3]                   : AA9       : bidir  : 3.3-V LVTTL       :         : 8         : Y              
 SRAM_DQ[4]                   : AA10      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
 SRAM_DQ[6]                   : AA11      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-LEDR[17]                     : AA12      : output : 3.3-V LVTTL       :         : 8         : N              
+RESERVED_INPUT               : AA12      :        :                   :         : 8         :                
 LEDR[10]                     : AA13      : output : 3.3-V LVTTL       :         : 7         : Y              
 LEDR[8]                      : AA14      : output : 3.3-V LVTTL       :         : 7         : Y              
 FL_ADDR[19]                  : AA15      : output : 3.3-V LVTTL       :         : 7         : Y              
@@ -181,7 +181,7 @@ SRAM_DQ[0]                   : AD8       : bidir  : 3.3-V LVTTL       :         
 GND                          : AD9       : gnd    :                   :         :           :                
 SRAM_OE_N                    : AD10      : output : 3.3-V LVTTL       :         : 8         : Y              
 HEX0[3]                      : AD11      : output : 3.3-V LVTTL       :         : 8         : Y              
-RESERVED_INPUT               : AD12      :        :                   :         : 8         :                
+LEDR[17]                     : AD12      : output : 3.3-V LVTTL       :         : 8         : Y              
 SW[5]                        : AD13      : input  : 3.3-V LVTTL       :         : 8         : Y              
 GND                          : AD14      : gnd    :                   :         :           :                
 LEDR[12]                     : AD15      : output : 3.3-V LVTTL       :         : 7         : Y              
@@ -312,13 +312,13 @@ VGA_G[7]                     : D11       : output : 3.3-V LVTTL       :         
 VGA_G[9]                     : D12       : output : 3.3-V LVTTL       :         : 3         : Y              
 CLOCK_27                     : D13       : input  : 3.3-V LVTTL       :         : 3         : Y              
 TCK                          : D14       : input  : 3.3-V LVTTL       :         : 4         : Y              
-RESERVED_INPUT               : D15       :        :                   :         : 4         :                
+LEDS_EXPORT[2]               : D15       : output : 3.3-V LVTTL       :         : 4         : N              
 RESERVED_INPUT               : D16       :        :                   :         : 4         :                
 ENET_DATA[0]                 : D17       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
 ENET_DATA[15]                : D18       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
 ENET_DATA[11]                : D19       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
 RESERVED_INPUT               : D20       :        :                   :         : 4         :                
-RESERVED_INPUT               : D21       :        :                   :         : 4         :                
+LEDS_EXPORT[0]               : D21       : output : 3.3-V LVTTL       :         : 4         : N              
 VCCIO4                       : D22       : power  :                   : 3.3V    : 4         :                
 RESERVED_INPUT               : D23       :        :                   :         : 5         :                
 GND                          : D24       : gnd    :                   :         :           :                
@@ -369,7 +369,7 @@ RESERVED_INPUT               : F16       :        :                   :         
 RESERVED_INPUT               : F17       :        :                   :         : 4         :                
 RESERVED_INPUT               : F18       :        :                   :         : 4         :                
 GNDA_PLL2                    : F19       : gnd    :                   :         :           :                
-RESERVED_INPUT               : F20       :        :                   :         : 5         :                
+LEDS_EXPORT[1]               : F20       : output : 3.3-V LVTTL       :         : 5         : N              
 RESERVED_INPUT               : F21       :        :                   :         : 5         :                
 VCCIO5                       : F22       : power  :                   : 3.3V    : 5         :                
 GPIO_0[5]                    : F23       : bidir  : 3.3-V LVTTL       :         : 5         : Y              
@@ -393,11 +393,11 @@ RESERVED_INPUT               : G14       :        :                   :         
 RESERVED_INPUT               : G15       :        :                   :         : 4         :                
 RESERVED_INPUT               : G16       :        :                   :         : 4         :                
 RESERVED_INPUT               : G17       :        :                   :         : 4         :                
-RESERVED_INPUT               : G18       :        :                   :         : 4         :                
+LEDS_EXPORT[5]               : G18       : output : 3.3-V LVTTL       :         : 4         : N              
 VCCA_PLL2                    : G19       : power  :                   : 1.2V    :           :                
 GND_PLL2                     : G20       : gnd    :                   :         :           :                
-RESERVED_INPUT               : G21       :        :                   :         : 5         :                
-RESERVED_INPUT               : G22       :        :                   :         : 5         :                
+LEDS_EXPORT[4]               : G21       : output : 3.3-V LVTTL       :         : 5         : N              
+LEDS_EXPORT[6]               : G22       : output : 3.3-V LVTTL       :         : 5         : N              
 GPIO_0[12]                   : G23       : bidir  : 3.3-V LVTTL       :         : 5         : Y              
 GPIO_0[13]                   : G24       : bidir  : 3.3-V LVTTL       :         : 5         : Y              
 GPIO_0[15]                   : G25       : bidir  : 3.3-V LVTTL       :         : 5         : Y              
@@ -416,7 +416,7 @@ VGA_R[6]                     : H11       : output : 3.3-V LVTTL       :         
 VGA_R[7]                     : H12       : output : 3.3-V LVTTL       :         : 3         : Y              
 GND                          : H13       : gnd    :                   :         :           :                
 GND                          : H14       : gnd    :                   :         :           :                
-RESERVED_INPUT               : H15       :        :                   :         : 4         :                
+LEDS_EXPORT[7]               : H15       : output : 3.3-V LVTTL       :         : 4         : N              
 RESERVED_INPUT               : H16       :        :                   :         : 4         :                
 RESERVED_INPUT               : H17       :        :                   :         : 4         :                
 VCCIO4                       : H18       : power  :                   : 3.3V    : 4         :                
@@ -619,7 +619,7 @@ DRAM_ADDR[0]                 : T6        : output : 3.3-V LVTTL       :         
 SW[13]                       : T7        : input  : 3.3-V LVTTL       :         : 1         : Y              
 DRAM_DQ[6]                   : T8        : bidir  : 3.3-V LVTTL       :         : 1         : Y              
 HEX5[3]                      : T9        : output : 3.3-V LVTTL       :         : 1         : Y              
-RESERVED_INPUT               : T10       :        :                   :         : 1         :                
+LEDS_EXPORT[3]               : T10       : output : 3.3-V LVTTL       :         : 1         : N              
 VCCINT                       : T11       : power  :                   : 1.2V    :           :                
 GND                          : T12       : gnd    :                   :         :           :                
 GND                          : T13       : gnd    :                   :         :           :                

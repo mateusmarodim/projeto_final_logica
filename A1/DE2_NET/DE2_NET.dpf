@@ -2,11 +2,7 @@
 
 <pin_planner>
 	<pin_info>
-		<pin name="PIN" source="Pin Planner" >
-		</pin>
-		<pin name="led_en" source="Pin Planner" >
-		</pin>
-		<pin name="PIN_AD12" source="Pin Planner" >
+		<pin name="LED" source="Pin Planner" >
 		</pin>
 	</pin_info>
 	<buses>

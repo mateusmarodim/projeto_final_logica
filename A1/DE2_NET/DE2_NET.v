@@ -168,8 +168,13 @@ module DE2_NET
 		TD_CLK27,                  //	TV Decoder 27MHz CLK
 		////////////////////	GPIO	////////////////////////////
 		GPIO_0,							//	GPIO Connection 0
-		GPIO_1							//	GPIO Connection 1
+		GPIO_1,							//	GPIO Connection 1
+		//////////////////// LEDS EXPORT KKKKKKK //////////////////////////
+		LEDS_EXPORT
 	);
+
+//////////////////////////
+output [7:0] LEDS_EXPORT;	
 
 ////////////////////////	Clock Input	 	////////////////////////
 input			   CLOCK_27;				//	On Board 27 MHz
@@ -407,7 +412,7 @@ system_0 	u0	(
                  .out_port_from_the_led_green(LEDG),
 
                 // the_led_red
-                 .out_port_from_the_led_red(LEDR),
+                 //.out_port_from_the_led_red(LEDR),
 
                 // the_sdram_0
                  .zs_addr_from_the_sdram_0(DRAM_ADDR),
@@ -441,8 +446,10 @@ system_0 	u0	(
 
                 // the_uart_0
                  .rxd_to_the_uart_0(UART_RXD),
-                 .txd_from_the_uart_0(UART_TXD)
+                 .txd_from_the_uart_0(UART_TXD),
 
+					 // leds
+					  .leds_export (LEDR[16])
                 );
 
 I2C_AV_Config 	u1	(	//	Host Side
