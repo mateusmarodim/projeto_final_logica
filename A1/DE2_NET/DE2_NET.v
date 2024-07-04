@@ -454,7 +454,7 @@ system_0 	u0	(
 					 // leds
 					  .leds_export (LEDR[16]),
 					  
-					  .teste_export (LEDG[5])
+					  //.teste_export (LEDG[5])
                 );
 
 I2C_AV_Config 	u1	(	//	Host Side

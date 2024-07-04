@@ -2,7 +2,7 @@ set_global_assignment -entity "system_0" -library "system_0" -name IP_TOOL_NAME 
 set_global_assignment -entity "system_0" -library "system_0" -name IP_TOOL_VERSION "13.0sp1"
 set_global_assignment -entity "system_0" -library "system_0" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -library "system_0" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../system_0.sopcinfo"]
-set_instance_assignment -entity "system_0" -library "system_0" -name SLD_INFO "QSYS_NAME system_0 HAS_SOPCINFO 1 GENERATION_ID 1720051806"
+set_instance_assignment -entity "system_0" -library "system_0" -name SLD_INFO "QSYS_NAME system_0 HAS_SOPCINFO 1 GENERATION_ID 1720111226"
 set_global_assignment -library "system_0" -name MISC_FILE [file join $::quartus(qip_path) "../../system_0.cmp"]
 set_global_assignment -name SYNTHESIS_ONLY_QIP ON
 set_global_assignment -library "system_0" -name MISC_FILE [file join $::quartus(qip_path) "../../system_0.qsys"]
@@ -43,8 +43,6 @@ set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(
 set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_seg7_display_avalon_slave_0_translator.vhd"]
 set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_sram_0_avalon_slave_0_translator.vhd"]
 set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_lab7_final_0_avalon_slave_0_translator.vhd"]
-set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_lab7_final_0.vhd"]
-set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_teste_conduit_0.vhd"]
 set_global_assignment -library "system_0" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/system_0_irq_mapper.sv"]
 set_global_assignment -library "system_0" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_width_adapter.sv"]
 set_global_assignment -library "system_0" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_address_alignment.sv"]

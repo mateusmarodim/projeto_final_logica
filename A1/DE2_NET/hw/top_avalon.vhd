@@ -9,6 +9,7 @@ PORT ( clock, resetn : IN STD_LOGIC;
    	 add           : IN STD_LOGIC;
        read_en       : IN STD_LOGIC;
 		 gpio_en			: OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
+
 );
 END top_avalon;
 
@@ -42,24 +43,57 @@ ARCHITECTURE Y OF top_avalon IS
 		);
 	END COMPONENT;
 
+	
+--------------------------------------------------------
+--
+-- ADD: 1 horario, 0 anti horario
+--								
+-- Writedata: 
+--------------------------------------------------------
+
+	-- Reg 1 --
 	signal write_enable_r1 : std_logic;
-	signal read_enable_r1: std_logic;
+	signal read_enable_r1, read_enable_r1_n: std_logic;
 	signal r1_out: STD_LOGIC_VECTOR(31 DOWNTO 0);
-	signal gpio_en : std_logic_vector(3 downto 0);
+
+	-- Reg 2 --
+	signal write_enable_r2 : std_logic;
+	signal r2_out: STD_LOGIC_VECTOR(31 DOWNTO 0);
+	
+	-- Divisor 50 --
+	--signal clock50: std_logic;
+	
+	-- Clockwise cron --
 	signal rot_clockwise: std_logic;
-	signal rot_time: std_logic_vector(6 downto 0);
+	signal rot_time: std_logic_vector(7 downto 0);
 	signal cron_load: std_logic;
-	signal cron_current_time: std_logic_vector(6 downto 0);
+	signal cron_current_time: std_logic_vector(7 downto 0);
+	
+	-- Counter-clockwise cron --
+	signal rot_c_clockwise: std_logic;
+	signal rot_c_time: std_logic_vector(7 downto 0);
+	signal cron_load_2: std_logic;
+	signal cron_current_time_2: std_logic_vector(7 downto 0);
 
 BEGIN
 
 	rot_clockwise <= r1_out(7);
-	rot_time <= r1_out(6 downto 0);
+	rot_time <= r1_out(7 downto 0);
 
 	write_enable_r1 <= write_en and chipselect and (not add);
-
-	r1 : reg32
+	write_enable_r2 <= write_en and chipselect and (add);
 	
+	-- Clockwise --
+	cron1 : cont_7 
+	port map (
+		clk 			=> clock,
+		rst			=> resetn,
+		load			=> cron_load,
+		load_value	=> rot_time,
+		counter		=> cron_current_time
+	);
+	
+	r1 : reg32
 	port map (
 		clock 	=> clock,
 		resetn 	=> resetn,
@@ -68,14 +102,23 @@ BEGIN
 		Q 		   => r1_out
 	);
 	
-	cron : cont_7
-	n 
+	-- Counter clockwise --
+	cron2 : cont_7
 	port map (
-		clk 			=> clock,
+		clk			=> clock,
 		rst			=> resetn,
-		load			=> cron_load,
-		load_value	=> rot_time,
-		counter		=> cron_current_time
+		load			=> cron_load_2,
+		load_value	=> rot_c_time,
+		counter		=> cron_current_time_2
+	);
+
+	r2 : reg32
+	port map (
+		clock 	=> clock,
+		resetn 	=> resetn,
+		WE       => write_enable_r2,
+		D 		   => writedata,
+		Q 		   => r2_out
 	);
 
 	process(clock)
@@ -86,7 +129,9 @@ BEGIN
 	-- sinais de habilitação de leitura
 	read_enable_r1 <= read_en and chipselect and (not add);
 	read_enable_r1_n <= read_en and chipselect and add;
-	readdata <= r1_out 	when read_enable_r1 = '1' else 
+	
+	readdata <= r1_out 	when read_enable_r1 = '1' else
+					r2_out	when read_enable_r1_n = '1' else
 					(others => '0');
 	-- led_en <= '1' when r1_out  /= "00000000000000000000000000000000" else '0';
 END Y;

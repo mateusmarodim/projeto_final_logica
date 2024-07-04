@@ -547,9 +547,9 @@ set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name ENABLE_SIGNALTAP ON
 set_global_assignment -name USE_SIGNALTAP_FILE stp1.stp
 set_global_assignment -name SLD_FILE "D:/QuartusProjects/A1/DE2_NET/stp1_auto_stripped.stp"
+set_global_assignment -name QIP_FILE system_0/synthesis/system_0.qip
 set_global_assignment -name VHDL_FILE hw/cont_7/cont_7.vhd
 set_global_assignment -name VHDL_FILE hw/divisor/divisor.vhd
-set_global_assignment -name QIP_FILE system_0/synthesis/system_0.qip
 set_global_assignment -name VHDL_FILE hw/top_avalon.vhd
 set_global_assignment -name VHDL_FILE hw/reg32.vhd
 set_global_assignment -name VERILOG_FILE I2C_AV_Config.v

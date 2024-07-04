@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP2C35F672) Path("C:/proj_final/A1/DE2_NET/") File("DE2_NET_time_limited.sof") MfrSpec(OpMask(1));
+		Device PartName(EP2C35F672) Path("C:/projeto_final_logica/A1/DE2_NET/") File("DE2_NET_time_limited.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

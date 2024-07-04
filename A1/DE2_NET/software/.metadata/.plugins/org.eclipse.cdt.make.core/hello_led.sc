@@ -4,6 +4,13 @@
 <scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
 <instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.734521690;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.734521690.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.961031631;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.551287869">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++"/>
+<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\i686-pc-cygwin"/>
+<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\backward"/>
+<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
+<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
+<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\usr\include"/>
+<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\usr\include\w32api"/>
 <includePath path="C:/proj_final/A1/DE2_NET/software/hello_led_bsp/HAL/inc"/>
 <includePath path="C:/proj_final/A1/DE2_NET/software/hello_led_bsp/"/>
 <includePath path="C:/proj_final/A1/DE2_NET/software/hello_led_bsp/drivers/inc"/>
@@ -232,6 +239,10 @@
 </instance>
 <instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.734521690;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.734521690.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.1726681740;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.1731624283">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
+<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
+<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\usr\include"/>
+<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\usr\include\w32api"/>
 <includePath path="C:/proj_final/A1/DE2_NET/software/hello_led_bsp/HAL/inc"/>
 <includePath path="C:/proj_final/A1/DE2_NET/software/hello_led_bsp/"/>
 <includePath path="C:/proj_final/A1/DE2_NET/software/hello_led_bsp/drivers/inc"/>
