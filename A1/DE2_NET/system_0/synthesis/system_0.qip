@@ -2,12 +2,20 @@ set_global_assignment -entity "system_0" -library "system_0" -name IP_TOOL_NAME 
 set_global_assignment -entity "system_0" -library "system_0" -name IP_TOOL_VERSION "13.0sp1"
 set_global_assignment -entity "system_0" -library "system_0" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -library "system_0" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../system_0.sopcinfo"]
-set_instance_assignment -entity "system_0" -library "system_0" -name SLD_INFO "QSYS_NAME system_0 HAS_SOPCINFO 1 GENERATION_ID 1720034865"
+set_instance_assignment -entity "system_0" -library "system_0" -name SLD_INFO "QSYS_NAME system_0 HAS_SOPCINFO 1 GENERATION_ID 1720051806"
 set_global_assignment -library "system_0" -name MISC_FILE [file join $::quartus(qip_path) "../../system_0.cmp"]
 set_global_assignment -name SYNTHESIS_ONLY_QIP ON
 set_global_assignment -library "system_0" -name MISC_FILE [file join $::quartus(qip_path) "../../system_0.qsys"]
 
 set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_width_adapter.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_width_adapter_001.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_width_adapter_002.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_width_adapter_003.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_burst_adapter.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_burst_adapter_001.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_rst_controller.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_rst_controller_002.vhd"]
 set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_cpu_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo.vhd"]
 set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_sdram_0_s1_translator_avalon_universal_slave_0_agent_rsp_fifo.vhd"]
 set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_sdram_0_s1_translator_avalon_universal_slave_0_agent_rdata_fifo.vhd"]
@@ -16,14 +24,8 @@ set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(
 set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_cpu_0_jtag_debug_module_translator_avalon_universal_slave_0_agent.vhd"]
 set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_sdram_0_s1_translator_avalon_universal_slave_0_agent.vhd"]
 set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_cfi_flash_0_uas_translator_avalon_universal_slave_0_agent.vhd"]
-set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_width_adapter.vhd"]
-set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_width_adapter_001.vhd"]
-set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_width_adapter_002.vhd"]
-set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_width_adapter_003.vhd"]
 set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_cpu_0_instruction_master_translator.vhd"]
 set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_cpu_0_data_master_translator.vhd"]
-set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_burst_adapter.vhd"]
-set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_burst_adapter_001.vhd"]
 set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_cpu_0_jtag_debug_module_translator.vhd"]
 set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_sdram_0_s1_translator.vhd"]
 set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_epcs_controller_epcs_control_port_translator.vhd"]
@@ -41,8 +43,8 @@ set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(
 set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_seg7_display_avalon_slave_0_translator.vhd"]
 set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_sram_0_avalon_slave_0_translator.vhd"]
 set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_lab7_final_0_avalon_slave_0_translator.vhd"]
-set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_rst_controller.vhd"]
-set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_rst_controller_002.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_lab7_final_0.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "system_0_teste_conduit_0.vhd"]
 set_global_assignment -library "system_0" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/system_0_irq_mapper.sv"]
 set_global_assignment -library "system_0" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_width_adapter.sv"]
 set_global_assignment -library "system_0" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_address_alignment.sv"]
@@ -73,6 +75,7 @@ set_global_assignment -library "system_0" -name SYSTEMVERILOG_FILE [file join $:
 set_global_assignment -library "system_0" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_agent.sv"]
 set_global_assignment -library "system_0" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_slave_translator.sv"]
 set_global_assignment -library "system_0" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_translator.sv"]
+set_global_assignment -library "system_0" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/system_0_led.v"]
 set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/reg32.vhd"]
 set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/top_avalon.vhd"]
 set_global_assignment -library "system_0" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/SRAM_16Bit_512K.v"]
@@ -199,6 +202,9 @@ set_global_assignment -entity "altera_merlin_slave_translator" -library "system_
 set_global_assignment -entity "altera_merlin_master_translator" -library "system_0" -name IP_TOOL_NAME "altera_merlin_master_translator"
 set_global_assignment -entity "altera_merlin_master_translator" -library "system_0" -name IP_TOOL_VERSION "13.0"
 set_global_assignment -entity "altera_merlin_master_translator" -library "system_0" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "system_0_led" -library "system_0" -name IP_TOOL_NAME "altera_avalon_pio"
+set_global_assignment -entity "system_0_led" -library "system_0" -name IP_TOOL_VERSION "13.0.1.99.2"
+set_global_assignment -entity "system_0_led" -library "system_0" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -entity "system_0_sysid_qsys_0" -library "system_0" -name IP_TOOL_NAME "altera_avalon_sysid_qsys"
 set_global_assignment -entity "system_0_sysid_qsys_0" -library "system_0" -name IP_TOOL_VERSION "13.0"
 set_global_assignment -entity "system_0_sysid_qsys_0" -library "system_0" -name IP_TOOL_ENV "Qsys"

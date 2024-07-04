@@ -2,31 +2,57 @@
 **** Build of configuration Nios II for project hello_led ****
 
 make all 
-      1 [main] sh 9000 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] sh 12144 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] sh 15908 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] sh 13412 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      5 [main] echo 16208 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
-the public mailing list cygwin@cygwin.com
+      1 [main] echo 16920 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Building ../hello_led_bsp/
+the public mailing list cygwin@cygwin.com
 make --no-print-directory -C ../hello_led_bsp/
-      1 [main] pwd 8092 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] pwd 5736 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] sh 11704 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] sh 15880 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] sh 3372 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] echo 15044 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Makefile not up to date.
 the public mailing list cygwin@cygwin.com
-[BSP build complete]
-      1 [main] true 13944 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] echo 18040 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+C:/proj_final/A1/DE2_NET/system_0.sopcinfo has been modified since the BSP was generated.
 the public mailing list cygwin@cygwin.com
-      1 [main] echo 13444 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] echo 13076 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+
 the public mailing list cygwin@cygwin.com
-Info: Linking hello_led.elf
-nios2-elf-g++  -T'../hello_led_bsp//linker.x' -msys-crt0='../hello_led_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../hello_led_bsp/  -Wl,--defsym,exit=_exit -msmallc  -Wl,-Map=hello_led.map   -Os -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o hello_led.elf obj/default/hello_world_small.o -lm 
-obj/default/hello_world_small.o: In function `main':
-C:\A2\DE2_NET\software\hello_led/hello_world_small.c:38: undefined reference to `scanf'
-C:\A2\DE2_NET\software\hello_led/hello_world_small.c:40: undefined reference to `scanf'
-collect2: ld returned 1 exit status
-make: *** [hello_led.elf] Error 1
+      1 [main] echo 16144 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Generate the BSP to update the Makefile, and then build again.
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 16276 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 8764 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+To generate from Eclipse:
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 14128 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+ 1. Right-click the BSP project.
+      0 [main] sh 4824 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+ 2. In the Nios II Menu, click Generate BSP.
+      1 [main] echo 5744 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 7348 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+To generate from the command line:
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 17432 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+      1 [main] echo 13108 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 18244 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+make[1]: *** [public.mk] Error 1
+make: *** [../hello_led_bsp/-recurs-make-lib] Error 2
 
 **** Build Finished ****

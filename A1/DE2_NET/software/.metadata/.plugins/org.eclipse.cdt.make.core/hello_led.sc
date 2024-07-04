@@ -2,18 +2,18 @@
 <?scdStore version="2"?>
 
 <scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.530415735;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.530415735.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.458268981;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.1187709329">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.734521690;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.734521690.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.961031631;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.551287869">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="C:/A2/DE2_NET/software/hello_led_bsp/HAL/inc"/>
-<includePath path="C:/A2/DE2_NET/software/hello_led_bsp/"/>
-<includePath path="C:/A2/DE2_NET/software/hello_led_bsp/drivers/inc"/>
-<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++"/>
-<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\i686-pc-cygwin"/>
-<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\backward"/>
-<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
-<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
-<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\usr\include"/>
-<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\usr\include\w32api"/>
+<includePath path="C:/proj_final/A1/DE2_NET/software/hello_led_bsp/HAL/inc"/>
+<includePath path="C:/proj_final/A1/DE2_NET/software/hello_led_bsp/"/>
+<includePath path="C:/proj_final/A1/DE2_NET/software/hello_led_bsp/drivers/inc"/>
+<includePath path="D:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++"/>
+<includePath path="D:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\i686-pc-cygwin"/>
+<includePath path="D:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\backward"/>
+<includePath path="D:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
+<includePath path="D:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
+<includePath path="D:\altera\13.0sp1\quartus\bin\cygwin\usr\include"/>
+<includePath path="D:\altera\13.0sp1\quartus\bin\cygwin\usr\include\w32api"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__cplusplus=1"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
@@ -226,25 +226,19 @@
 <definedSymbol symbol="__unix=1"/>
 <definedSymbol symbol="SYSTEM_BUS_WIDTH=32"/>
 <definedSymbol symbol="__hal__=1"/>
-<definedSymbol symbol="ALT_NO_C_PLUS_PLUS=1"/>
-<definedSymbol symbol="ALT_NO_CLEAN_EXIT=1"/>
-<definedSymbol symbol="ALT_NO_EXIT=1"/>
-<definedSymbol symbol="ALT_USE_DIRECT_DRIVERS=1"/>
 <definedSymbol symbol="ALT_NO_INSTRUCTION_EMULATION=1"/>
-<definedSymbol symbol="ALT_USE_SMALL_DRIVERS=1"/>
-<definedSymbol symbol="SMALL_C_LIB=1"/>
 <definedSymbol symbol="ALT_SINGLE_THREADED=1"/>
 </collector>
 </instance>
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.530415735;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.530415735.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.551439564;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.1195485534">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.734521690;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.734521690.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.1726681740;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.1731624283">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="C:/A2/DE2_NET/software/hello_led_bsp/HAL/inc"/>
-<includePath path="C:/A2/DE2_NET/software/hello_led_bsp/"/>
-<includePath path="C:/A2/DE2_NET/software/hello_led_bsp/drivers/inc"/>
-<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
-<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
-<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\usr\include"/>
-<includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\usr\include\w32api"/>
+<includePath path="C:/proj_final/A1/DE2_NET/software/hello_led_bsp/HAL/inc"/>
+<includePath path="C:/proj_final/A1/DE2_NET/software/hello_led_bsp/"/>
+<includePath path="C:/proj_final/A1/DE2_NET/software/hello_led_bsp/drivers/inc"/>
+<includePath path="D:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
+<includePath path="D:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
+<includePath path="D:\altera\13.0sp1\quartus\bin\cygwin\usr\include"/>
+<includePath path="D:\altera\13.0sp1\quartus\bin\cygwin\usr\include\w32api"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
 <definedSymbol symbol="__GNUC__=4"/>
@@ -450,13 +444,7 @@
 <definedSymbol symbol="__unix=1"/>
 <definedSymbol symbol="SYSTEM_BUS_WIDTH=32"/>
 <definedSymbol symbol="__hal__=1"/>
-<definedSymbol symbol="ALT_NO_C_PLUS_PLUS=1"/>
-<definedSymbol symbol="ALT_NO_CLEAN_EXIT=1"/>
-<definedSymbol symbol="ALT_NO_EXIT=1"/>
-<definedSymbol symbol="ALT_USE_DIRECT_DRIVERS=1"/>
 <definedSymbol symbol="ALT_NO_INSTRUCTION_EMULATION=1"/>
-<definedSymbol symbol="ALT_USE_SMALL_DRIVERS=1"/>
-<definedSymbol symbol="SMALL_C_LIB=1"/>
 <definedSymbol symbol="ALT_SINGLE_THREADED=1"/>
 </collector>
 </instance>

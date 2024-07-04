@@ -170,11 +170,14 @@ module DE2_NET
 		GPIO_0,							//	GPIO Connection 0
 		GPIO_1,							//	GPIO Connection 1
 		//////////////////// LEDS EXPORT KKKKKKK //////////////////////////
-		LEDS_EXPORT
+		LEDS_EXPORT,
+		
+		TESTE_EXPORT
 	);
 
 //////////////////////////
-output [7:0] LEDS_EXPORT;	
+output 			LEDS_EXPORT;
+output			TESTE_EXPORT;
 
 ////////////////////////	Clock Input	 	////////////////////////
 input			   CLOCK_27;				//	On Board 27 MHz
@@ -409,7 +412,7 @@ system_0 	u0	(
                  .LCD_data_to_and_from_the_lcd_16207_0(LCD_DATA),
 
                 // the_led_green
-                 .out_port_from_the_led_green(LEDG),
+                 //.out_port_from_the_led_green(LEDG),
 
                 // the_led_red
                  //.out_port_from_the_led_red(LEDR),
@@ -449,7 +452,9 @@ system_0 	u0	(
                  .txd_from_the_uart_0(UART_TXD),
 
 					 // leds
-					  .leds_export (LEDR[16])
+					  .leds_export (LEDR[16]),
+					  
+					  .teste_export (LEDG[5])
                 );
 
 I2C_AV_Config 	u1	(	//	Host Side

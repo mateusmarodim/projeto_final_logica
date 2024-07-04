@@ -23,6 +23,24 @@ ARCHITECTURE Y OF top_avalon IS
 			Q 		 : OUT STD_LOGIC_VECTOR(31 DOWNTO 0)
 		);
 	END COMPONENT;
+	
+	COMPONENT cont_7
+		PORT ( 
+			clk : in STD_LOGIC;
+		   rst : in STD_LOGIC;
+         load : in STD_LOGIC;
+         load_value : in STD_LOGIC_VECTOR (7 downto 0);
+         counter : out STD_LOGIC_VECTOR (7 downto 0)
+		);
+	END COMPONENT;
+	
+	COMPONENT divisor
+		PORT (
+			CLK: in std_logic;
+			RST: in std_logic;
+			DIV50: out std_logic
+		);
+	END COMPONENT;
 
 	signal write_enable_r1 : std_logic;
 	signal read_enable_r1, read_enable_r1_n: std_logic;
@@ -34,6 +52,7 @@ BEGIN
 	r1_out_n <= not r1_out;
 
 	r1 : reg32
+	
 	port map (
 		clock 	=> clock,
 		resetn 	=> resetn,
@@ -41,7 +60,6 @@ BEGIN
 		D 		   => writedata,
 		Q 		   => r1_out
 	);
-
 
 	process(clock)
 

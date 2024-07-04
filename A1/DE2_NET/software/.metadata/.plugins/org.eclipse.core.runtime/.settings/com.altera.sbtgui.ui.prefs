@@ -1,4 +1,4 @@
 eclipse.preferences.version=1
-newSoftwareExampleWizardPage.defaultLocation=C\:\\A2\\DE2_NET\\software\\hello_led
-newSoftwareExampleWizardPage.sopcinfoFile=C\:\\A2\\DE2_NET\\system_0.sopcinfo
-newSoftwareExampleWizardPage2.newBspLocation=C\:\\A2\\DE2_NET\\software\\hello_led_bsp
+newSoftwareExampleWizardPage.defaultLocation=C\:\\proj_final\\A1\\DE2_NET\\software\\led
+newSoftwareExampleWizardPage.sopcinfoFile=C\:\\proj_final\\A1\\DE2_NET\\system_0.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=C\:\\proj_final\\A1\\DE2_NET\\software\\led_bsp
