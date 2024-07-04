@@ -8,7 +8,7 @@ PORT ( clock, resetn : IN STD_LOGIC;
        readdata      : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
    	 add           : IN STD_LOGIC;
        read_en       : IN STD_LOGIC;
-		 led_en			: OUT STD_LOGIC
+		 gpio_en			: OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
 );
 END top_avalon;
 
@@ -43,13 +43,20 @@ ARCHITECTURE Y OF top_avalon IS
 	END COMPONENT;
 
 	signal write_enable_r1 : std_logic;
-	signal read_enable_r1, read_enable_r1_n: std_logic;
-	signal r1_out, r1_out_n: STD_LOGIC_VECTOR(31 DOWNTO 0);
+	signal read_enable_r1: std_logic;
+	signal r1_out: STD_LOGIC_VECTOR(31 DOWNTO 0);
+	signal gpio_en : std_logic_vector(3 downto 0);
+	signal rot_clockwise: std_logic;
+	signal rot_time: std_logic_vector(6 downto 0);
+	signal cron_load: std_logic;
+	signal cron_current_time: std_logic_vector(6 downto 0);
 
 BEGIN
 
+	rot_clockwise <= r1_out(7);
+	rot_time <= r1_out(6 downto 0);
+
 	write_enable_r1 <= write_en and chipselect and (not add);
-	r1_out_n <= not r1_out;
 
 	r1 : reg32
 	
@@ -59,6 +66,16 @@ BEGIN
 		WE       => write_enable_r1,
 		D 		   => writedata,
 		Q 		   => r1_out
+	);
+	
+	cron : cont_7
+	n 
+	port map (
+		clk 			=> clock,
+		rst			=> resetn,
+		load			=> cron_load,
+		load_value	=> rot_time,
+		counter		=> cron_current_time
 	);
 
 	process(clock)
@@ -70,7 +87,6 @@ BEGIN
 	read_enable_r1 <= read_en and chipselect and (not add);
 	read_enable_r1_n <= read_en and chipselect and add;
 	readdata <= r1_out 	when read_enable_r1 = '1' else 
-					r1_out_n when read_enable_r1_n = '1' else
 					(others => '0');
-	led_en <= '1' when r1_out  /= "00000000000000000000000000000000" else '0';
+	-- led_en <= '1' when r1_out  /= "00000000000000000000000000000000" else '0';
 END Y;
