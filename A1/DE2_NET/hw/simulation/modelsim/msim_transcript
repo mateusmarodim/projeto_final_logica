@@ -1,0 +1,86 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do user_hw_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/projeto_final_logica/A1/DE2_NET/hw/reg32.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg32
+# -- Compiling architecture Behavior of reg32
+# vcom -93 -work work {C:/projeto_final_logica/A1/DE2_NET/hw/user_hw.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity user_hw
+# -- Compiling architecture Y of user_hw
+# 
+vcom -reportprogress 300 -work work C:/projeto_final_logica/A1/DE2_NET/hw/cont_7.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cont_7
+# -- Compiling architecture Behavioral of cont_7
+vcom -reportprogress 300 -work work C:/projeto_final_logica/A1/DE2_NET/hw/divisor.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity DIVISOR
+# -- Compiling architecture x of DIVISOR
+vcom -reportprogress 300 -work work C:/projeto_final_logica/A1/DE2_NET/hw/reg32.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg32
+# -- Compiling architecture Behavior of reg32
+vcom -reportprogress 300 -work work C:/projeto_final_logica/A1/DE2_NET/hw/top_avalon.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_avalon
+# -- Compiling architecture Y of top_avalon
+vcom -reportprogress 300 -work work C:/projeto_final_logica/A1/DE2_NET/hw/top_avalon_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_top_avalon
+# -- Compiling architecture behavior of tb_top_avalon
+vsim work.tb_top_avalon
+# vsim work.tb_top_avalon 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_top_avalon(behavior)
+# Loading ieee.numeric_std(body)
+# Loading work.top_avalon(y)
+# Loading work.divisor(x)
+# Loading work.reg32(behavior)
+# Loading work.cont_7(behavioral)
+add wave -position insertpoint sim:/tb_top_avalon/uut/*
+run 500 ns
+restart
+add wave -position insertpoint sim:/tb_top_avalon/*
+run 500 ns

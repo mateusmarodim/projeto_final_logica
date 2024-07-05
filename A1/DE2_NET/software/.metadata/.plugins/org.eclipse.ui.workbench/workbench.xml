@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="36" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="32" y="32">
+<window height="768" width="1024" x="254" y="355">
 <fastViewData fastViewLocation="1024"/>
 <intro standby="true"/>
 <perspectiveBar>
@@ -9,15 +9,15 @@
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="153" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="316" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="167" y="22"/>
+<coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="183" y="22"/>
 <coolItem id="org.eclipse.cdt.ui.buildConfigActionSet" itemType="typeToolBarContribution" x="97" y="22"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="141" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="103" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="206" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.cdt.make.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -33,36 +33,21 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" partName="hello_world_small.c" path="C:/projeto_final_logica/A1/DE2_NET/software/8/hello_world_small.c" title="hello_world_small.c" tooltip="8/hello_world_small.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/8/hello_world_small.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="990" selectionOffset="0" selectionTopPixel="108"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world.c" partName="hello_world.c" path="C:/projeto_final_logica/A1/DE2_NET/software/proj_final_dos_cria/hello_world.c" title="hello_world.c" tooltip="proj_final_dos_cria/hello_world.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/proj_final_dos_cria/hello_world.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="605" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" partName="hello_world_small.c" path="C:/projeto_final_logica/A1/DE2_NET/software/9/hello_world_small.c" title="hello_world_small.c" tooltip="9/hello_world_small.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/9/hello_world_small.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="799" selectionTopPixel="108"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world.c" partName="hello_world.c" path="C:/projeto_final_logica/A1/DE2_NET/software/proj_fim/hello_world.c" title="hello_world.c" tooltip="proj_fim/hello_world.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/proj_fim/hello_world.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="607" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" partName="hello_world_small.c" path="C:/projeto_final_logica/A1/DE2_NET/software/10/hello_world_small.c" title="hello_world_small.c" tooltip="10/hello_world_small.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/10/hello_world_small.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="1010" selectionOffset="0" selectionTopPixel="108"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" partName="hello_world_small.c" path="C:/projeto_final_logica/A1/DE2_NET/software/11/hello_world_small.c" title="hello_world_small.c" tooltip="11/hello_world_small.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/11/hello_world_small.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="1054" selectionOffset="0" selectionTopPixel="57"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" partName="hello_world_small.c" path="C:/projeto_final_logica/A1/DE2_NET/software/12/hello_world_small.c" title="hello_world_small.c" tooltip="12/hello_world_small.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/12/hello_world_small.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="1054" selectionOffset="0" selectionTopPixel="125"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" partName="hello_world_small.c" path="C:/projeto_final_logica/A1/DE2_NET/software/13/hello_world_small.c" title="hello_world_small.c" tooltip="13/hello_world_small.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/13/hello_world_small.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="759" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world.c" partName="hello_world.c" path="C:/projeto_final_logica/A1/DE2_NET/software/projeto/hello_world.c" title="hello_world.c" tooltip="projeto/hello_world.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/projeto/hello_world.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="172" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -75,9 +60,6 @@
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="120" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120" org.eclipse.ui.ide.severityAndDescriptionField="676"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -96,12 +78,23 @@
 </viewState>
 </view>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
-<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="300" org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.priorityField="30" org.eclipse.ui.ide.resourceField="90"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="com.altera.sbtgui.ui.cPerspective">
+<perspectives activePart="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB-1].1.0" activePerspective="com.altera.sbtgui.ui.cPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.cdt.internal.ui.CPerspectiveFactory" id="org.eclipse.cdt.ui.CPerspective" label="C/C++"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -276,8 +269,8 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.19202898" ratioLeft="318" ratioRight="1338" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottom" ratio="0.687974" ratioLeft="635" ratioRight="288" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<info folder="true" part="bottom" ratio="0.66629463" ratioLeft="597" ratioRight="299" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB-1].1.0" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
@@ -310,187 +303,56 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_led/hello_world.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/led/hello_world.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_led/hello_world.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.make.editor" path="/hello_led_bsp/Makefile"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/led/hello_world.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_led2/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_led3/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_led2/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_led4/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/led/hello_world.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_led5/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_led6/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/led/hello_world.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_led7/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_led8/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_led7/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/led/hello_world.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_led9/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_led8/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_led9/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/1/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/2/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/3/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/4/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/6/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/7/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/1/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/4/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/8/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/9/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/10/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/11/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/12/hello_world_small.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/13/hello_world_small.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/26/hello_world.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/26/hello_world_small.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/27/hello_world_small.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/26/hello_world.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/proj_final/hello_world.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/proj_final_2/hello_world.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/proj_final_3/hello_world.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/proj_final_dos_cria/hello_world.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/proj_fim/hello_world.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/projeto/hello_world.c"/>
 </editors>
 <item historyLabel="hello_world.c" index="0">
-<position info="not_deleted" x="621" y="122"/>
+<position/>
 </item>
-<item historyLabel="hello_world.c" index="1">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="hello_world_small.c" index="1">
+<position info="not_deleted" x="0" y="1222"/>
 </item>
-<item historyLabel="hello_world.c" index="2">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="hello_world.c" index="0">
+<position/>
 </item>
-<item historyLabel="Makefile" index="3">
-<position info="not_deleted" x="25122" y="62"/>
+<item historyLabel="hello_world_small.c" index="2">
+<position info="not_deleted" x="1093" y="0"/>
+</item>
+<item historyLabel="hello_world.c" index="3"/>
+<item historyLabel="hello_world_small.c" index="2">
+<position info="not_deleted" x="1093" y="0"/>
+</item>
+<item historyLabel="hello_world_small.c" index="2">
+<position info="not_deleted" x="0" y="1091"/>
 </item>
 <item historyLabel="hello_world.c" index="4">
-<position info="not_deleted" x="0" y="0"/>
+<position info="not_deleted" x="0" y="487"/>
 </item>
-<item historyLabel="hello_world_small.c" index="5">
-<position/>
+<item historyLabel="hello_world.c" index="5">
+<position info="not_deleted" x="588" y="0"/>
 </item>
-<item historyLabel="hello_world.c" index="2">
-<position info="not_deleted" x="0" y="736"/>
+<item historyLabel="hello_world.c" index="5">
+<position info="not_deleted" x="0" y="588"/>
 </item>
-<item historyLabel="hello_world_small.c" index="5">
-<position info="not_deleted" x="724" y="0"/>
+<item historyLabel="hello_world.c" index="6">
+<position info="not_deleted" x="0" y="605"/>
 </item>
-<item historyLabel="hello_world_small.c" index="5">
-<position info="not_deleted" x="756" y="0"/>
+<item historyLabel="hello_world.c" index="7">
+<position info="not_deleted" x="605" y="0"/>
 </item>
-<item historyLabel="hello_world_small.c" index="5">
-<position info="not_deleted" x="0" y="921"/>
+<item historyLabel="hello_world.c" index="8">
+<position info="not_deleted" x="607" y="0"/>
 </item>
-<item historyLabel="hello_world_small.c" index="6">
-<position info="not_deleted" x="921" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="7">
-<position info="not_deleted" x="0" y="921"/>
-</item>
-<item historyLabel="hello_world_small.c" index="6">
-<position info="not_deleted" x="679" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="8">
-<position info="not_deleted" x="0" y="921"/>
-</item>
-<item historyLabel="hello_world.c" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="10">
-<position info="not_deleted" x="921" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="11">
-<position info="not_deleted" x="866" y="0"/>
-</item>
-<item historyLabel="hello_world.c" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="13">
-<position info="not_deleted" x="921" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="14">
-<position info="not_deleted" x="921" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="15">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="14">
-<position info="not_deleted" x="40" y="0"/>
-</item>
-<item historyLabel="hello_world.c" index="16">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="14">
-<position info="not_deleted" x="40" y="0"/>
-</item>
-<item historyLabel="hello_world.c" index="16">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="14">
-<position info="not_deleted" x="0" y="921"/>
-</item>
-<item historyLabel="hello_world_small.c" index="17">
-<position info="not_deleted" x="0" y="921"/>
-</item>
-<item historyLabel="hello_world_small.c" index="18">
-<position info="not_deleted" x="969" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="19">
-<position info="not_deleted" x="908" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="19">
-<position info="not_deleted" x="839" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="19">
-<position info="not_deleted" x="835" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="19">
-<position info="not_deleted" x="813" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="20">
-<position/>
-</item>
-<item historyLabel="hello_world_small.c" index="21">
-<position info="not_deleted" x="908" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="22">
-<position info="not_deleted" x="904" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="23">
-<position info="not_deleted" x="904" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="22">
-<position info="not_deleted" x="639" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="23">
-<position info="not_deleted" x="904" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="24">
-<position info="not_deleted" x="835" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="25">
-<position info="not_deleted" x="992" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="26">
-<position info="not_deleted" x="679" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="24">
-<position info="not_deleted" x="835" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="27">
-<position info="not_deleted" x="739" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="28">
-<position/>
-</item>
-<item historyLabel="hello_world_small.c" index="29">
-<position info="not_deleted" x="990" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="30">
-<position info="not_deleted" x="1010" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="31">
-<position info="not_deleted" x="1054" y="0"/>
-</item>
-<item historyLabel="hello_world_small.c" index="32">
-<position info="not_deleted" x="1054" y="0"/>
-</item>
-<item active="true" historyLabel="hello_world_small.c" index="33">
-<position info="not_deleted" x="883" y="0"/>
+<item active="true" historyLabel="hello_world.c" index="9">
+<position info="not_deleted" x="607" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -510,50 +372,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="13/hello_world_small.c">
-<persistable path="/13/hello_world_small.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world.c" tooltip="projeto/hello_world.c">
+<persistable path="/projeto/hello_world.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="12/hello_world_small.c">
-<persistable path="/12/hello_world_small.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world.c" tooltip="proj_fim/hello_world.c">
+<persistable path="/proj_fim/hello_world.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="11/hello_world_small.c">
-<persistable path="/11/hello_world_small.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world.c" tooltip="proj_final_dos_cria/hello_world.c">
+<persistable path="/proj_final_dos_cria/hello_world.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="10/hello_world_small.c">
-<persistable path="/10/hello_world_small.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world.c" tooltip="proj_final_3/hello_world.c">
+<persistable path="/proj_final_3/hello_world.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="9/hello_world_small.c">
-<persistable path="/9/hello_world_small.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world.c" tooltip="proj_final_2/hello_world.c">
+<persistable path="/proj_final_2/hello_world.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="8/hello_world_small.c">
-<persistable path="/8/hello_world_small.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world.c" tooltip="proj_final/hello_world.c">
+<persistable path="/proj_final/hello_world.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="7/hello_world_small.c">
-<persistable path="/7/hello_world_small.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="27/hello_world_small.c">
+<persistable path="/27/hello_world_small.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="6/hello_world_small.c">
-<persistable path="/6/hello_world_small.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="26/hello_world_small.c">
+<persistable path="/26/hello_world_small.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="4/hello_world_small.c">
-<persistable path="/4/hello_world_small.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world.c" tooltip="26/hello_world.c">
+<persistable path="/26/hello_world.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="3/hello_world_small.c">
-<persistable path="/3/hello_world_small.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="22/hello_world_small.c">
+<persistable path="/22/hello_world_small.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="2/hello_world_small.c">
-<persistable path="/2/hello_world_small.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="21/hello_world_small.c">
+<persistable path="/21/hello_world_small.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="1/hello_world_small.c">
-<persistable path="/1/hello_world_small.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="20/hello_world_small.c">
+<persistable path="/20/hello_world_small.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="hello_led9/hello_world_small.c">
-<persistable path="/hello_led9/hello_world_small.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="19/hello_world_small.c">
+<persistable path="/19/hello_world_small.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="hello_led8/hello_world_small.c">
-<persistable path="/hello_led8/hello_world_small.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="18/hello_world_small.c">
+<persistable path="/18/hello_world_small.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world.c" tooltip="led/hello_world.c">
-<persistable path="/led/hello_world.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world_small.c" tooltip="17/hello_world_small.c">
+<persistable path="/17/hello_world_small.c"/>
 </file>
 </mruList>
 </workbench>

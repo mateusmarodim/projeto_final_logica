@@ -136,7 +136,7 @@ module system_0_addr_router_001
     // Figure out the number of bits to mask off for each slave span
     // during address decoding
     // -------------------------------------------------------
-    localparam PAD0 = log2ceil(64'h8 - 64'h0); 
+    localparam PAD0 = log2ceil(64'h10 - 64'h0); 
     localparam PAD1 = log2ceil(64'h20 - 64'h10); 
     localparam PAD2 = log2ceil(64'h30 - 64'h20); 
     localparam PAD3 = log2ceil(64'h1000000 - 64'h800000); 
@@ -211,21 +211,21 @@ module system_0_addr_router_001
         // Sets the channel and destination ID based on the address
         // --------------------------------------------------
 
-    // ( 0x0 .. 0x8 )
+    // ( 0x0 .. 0x10 )
     if ( {address[RG:PAD0],{PAD0{1'b0}}} == 25'h0   ) begin
-            src_channel = 27'b001000000000000000000000000;
+            src_channel = 27'b100000000000000000000000000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 14;
     end
 
     // ( 0x10 .. 0x20 )
     if ( {address[RG:PAD1],{PAD1{1'b0}}} == 25'h10   ) begin
-            src_channel = 27'b100000000000000000000000000;
+            src_channel = 27'b010000000000000000000000000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 18;
     end
 
     // ( 0x20 .. 0x30 )
     if ( {address[RG:PAD2],{PAD2{1'b0}}} == 25'h20   ) begin
-            src_channel = 27'b010000000000000000000000000;
+            src_channel = 27'b001000000000000000000000000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 19;
     end
 

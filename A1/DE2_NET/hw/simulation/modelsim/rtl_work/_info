@@ -1,0 +1,225 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\projeto_final_logica\A1\DE2_NET\hw\simulation\modelsim
+Econt_7
+Z1 w1720219928
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\projeto_final_logica\A1\DE2_NET\hw\simulation\modelsim
+Z6 8C:/projeto_final_logica/A1/DE2_NET/hw/cont_7.vhd
+Z7 FC:/projeto_final_logica/A1/DE2_NET/hw/cont_7.vhd
+l0
+L6
+VThVJaJX;kNbJGP:W@XY7P3
+Z8 OV;C;10.1d;51
+32
+Z9 !s108 1720220039.210000
+Z10 !s90 -reportprogress|300|-work|work|C:/projeto_final_logica/A1/DE2_NET/hw/cont_7.vhd|
+Z11 !s107 C:/projeto_final_logica/A1/DE2_NET/hw/cont_7.vhd|
+Z12 o-work work -O0
+Z13 tExplicit 1
+!s100 lSCQzZ0Iheo58GK7]nB<80
+!i10b 1
+Abehavioral
+R2
+R3
+R4
+DEx4 work 6 cont_7 0 22 ThVJaJX;kNbJGP:W@XY7P3
+l18
+L16
+V@WM6@Zl5aWRg`A:QQXWzm3
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 UdFUI]3nV]Xc=WdVj0hC:3
+!i10b 1
+Edivisor
+Z14 w1720216324
+R2
+R3
+R4
+R5
+Z15 8C:/projeto_final_logica/A1/DE2_NET/hw/divisor.vhd
+Z16 FC:/projeto_final_logica/A1/DE2_NET/hw/divisor.vhd
+l0
+L5
+VGcZi2`<B>kJD1MaK59S2W1
+R8
+32
+Z17 !s108 1720220040.669000
+Z18 !s90 -reportprogress|300|-work|work|C:/projeto_final_logica/A1/DE2_NET/hw/divisor.vhd|
+Z19 !s107 C:/projeto_final_logica/A1/DE2_NET/hw/divisor.vhd|
+R12
+R13
+!s100 N^d6oWhEaNdPa1S:5WV?c1
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 7 divisor 0 22 GcZi2`<B>kJD1MaK59S2W1
+l19
+L14
+V9Qi=]5P4Vj?0kcD0]QUUC0
+R8
+32
+R17
+R18
+R19
+R12
+R13
+!s100 3@Je5N;h2<M^8mFSVfj<:0
+!i10b 1
+Ereg32
+Z20 w1720213775
+R3
+R4
+R5
+Z21 8C:/projeto_final_logica/A1/DE2_NET/hw/reg32.vhd
+Z22 FC:/projeto_final_logica/A1/DE2_NET/hw/reg32.vhd
+l0
+L4
+V0V8ZQUlbJc=[YnKZ=lO?i0
+R8
+32
+Z23 !s108 1720220041.864000
+Z24 !s90 -reportprogress|300|-work|work|C:/projeto_final_logica/A1/DE2_NET/hw/reg32.vhd|
+Z25 !s107 C:/projeto_final_logica/A1/DE2_NET/hw/reg32.vhd|
+R12
+R13
+!s100 A1`dbW?Vl6DQ:`5YFP>:z2
+!i10b 1
+Abehavior
+R3
+R4
+DEx4 work 5 reg32 0 22 0V8ZQUlbJc=[YnKZ=lO?i0
+l13
+L12
+V@6d`C:XTSm6FAL6JOb<0b1
+R8
+32
+R23
+R24
+R25
+R12
+R13
+!s100 __:Zc=_cDVoiIbX[z3^ac2
+!i10b 1
+Etb_top_avalon
+Z26 w1720215522
+Z27 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z28 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R3
+R4
+R5
+Z29 8C:/projeto_final_logica/A1/DE2_NET/hw/top_avalon_tb.vhd
+Z30 FC:/projeto_final_logica/A1/DE2_NET/hw/top_avalon_tb.vhd
+l0
+L5
+VLdklY0O8P;Dcon>6gGZV31
+!s100 VgZiX7US15STJKY`9:@Xc2
+R8
+32
+!i10b 1
+Z31 !s108 1720220043.607000
+Z32 !s90 -reportprogress|300|-work|work|C:/projeto_final_logica/A1/DE2_NET/hw/top_avalon_tb.vhd|
+Z33 !s107 C:/projeto_final_logica/A1/DE2_NET/hw/top_avalon_tb.vhd|
+R12
+R13
+Abehavior
+R27
+R28
+R3
+R4
+DEx4 work 13 tb_top_avalon 0 22 LdklY0O8P;Dcon>6gGZV31
+l39
+L8
+VhN^aVDG@k31hl;1XBOmje2
+!s100 hnU5aPkejF[8nC^[8`89R1
+R8
+32
+!i10b 1
+R31
+R32
+R33
+R12
+R13
+Etop_avalon
+Z34 w1720219983
+R2
+R3
+R4
+R5
+Z35 8C:/projeto_final_logica/A1/DE2_NET/hw/top_avalon.vhd
+Z36 FC:/projeto_final_logica/A1/DE2_NET/hw/top_avalon.vhd
+l0
+L5
+VdRQ5HDC:G@1N^1Gn7OAA:0
+R8
+32
+Z37 !s108 1720220042.727000
+Z38 !s90 -reportprogress|300|-work|work|C:/projeto_final_logica/A1/DE2_NET/hw/top_avalon.vhd|
+Z39 !s107 C:/projeto_final_logica/A1/DE2_NET/hw/top_avalon.vhd|
+R12
+R13
+!s100 BK3ZlYM`RdXU90XL1SBfo3
+!i10b 1
+Ay
+R2
+R3
+R4
+DEx4 work 10 top_avalon 0 22 dRQ5HDC:G@1N^1Gn7OAA:0
+l86
+L17
+VVJ^8lR7]4KLE^BLbUnjUb3
+R8
+32
+R37
+R38
+R39
+R12
+R13
+!s100 d3BI9jEEC6z^H1g>EkYdA2
+!i10b 1
+Euser_hw
+Z40 w1720088055
+R3
+R4
+R5
+Z41 8C:/projeto_final_logica/A1/DE2_NET/hw/user_hw.vhd
+Z42 FC:/projeto_final_logica/A1/DE2_NET/hw/user_hw.vhd
+l0
+L3
+V^Qa@<:SBb>2RS]RPZ`T?12
+R8
+31
+Z43 !s108 1720220026.478000
+Z44 !s90 -reportprogress|300|-93|-work|work|C:/projeto_final_logica/A1/DE2_NET/hw/user_hw.vhd|
+Z45 !s107 C:/projeto_final_logica/A1/DE2_NET/hw/user_hw.vhd|
+Z46 o-93 -work work -O0
+R13
+!s100 ]FR:a]WzVk6C@d<LTdjEX3
+!i10b 1
+Ay
+R3
+R4
+DEx4 work 7 user_hw 0 22 ^Qa@<:SBb>2RS]RPZ`T?12
+l31
+L15
+VRjXZUUP3Mo_`U4Qf7hJ:61
+R8
+31
+R43
+R44
+R45
+R46
+R13
+!s100 c66hTOBTk^kcl;m<l7Q090
+!i10b 1

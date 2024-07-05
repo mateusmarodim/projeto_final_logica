@@ -1,5 +1,5 @@
 Analysis & Synthesis report for user_hw
-Wed Jun 26 11:35:11 2024
+Fri Jul 05 19:53:07 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -42,7 +42,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Jun 26 11:35:11 2024           ;
+; Analysis & Synthesis Status        ; Successful - Fri Jul 05 19:53:07 2024           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; user_hw                                         ;
 ; Top-level Entity Name              ; user_hw                                         ;
@@ -149,26 +149,26 @@ applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 4           ;
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 6           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-8         ;   0.0%      ;
+;     Processors 2-12        ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                         ;
-+----------------------------------+-----------------+-----------------------+-----------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type             ; File Name with Absolute Path            ; Library ;
-+----------------------------------+-----------------+-----------------------+-----------------------------------------+---------+
-; user_hw.vhd                      ; yes             ; Auto-Found VHDL File  ; C:/proj_final/A1/DE2_NET/hw/user_hw.vhd ;         ;
-; reg32.vhd                        ; yes             ; Auto-Found VHDL File  ; C:/proj_final/A1/DE2_NET/hw/reg32.vhd   ;         ;
-+----------------------------------+-----------------+-----------------------+-----------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                   ;
++----------------------------------+-----------------+-----------------------+---------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type             ; File Name with Absolute Path                      ; Library ;
++----------------------------------+-----------------+-----------------------+---------------------------------------------------+---------+
+; reg32.vhd                        ; yes             ; User VHDL File        ; C:/projeto_final_logica/A1/DE2_NET/hw/reg32.vhd   ;         ;
+; user_hw.vhd                      ; yes             ; Auto-Found VHDL File  ; C:/projeto_final_logica/A1/DE2_NET/hw/user_hw.vhd ;         ;
++----------------------------------+-----------------+-----------------------+---------------------------------------------------+---------+
 
 
 +----------------------------------------------------------+
@@ -251,16 +251,31 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed Jun 26 11:35:10 2024
+    Info: Processing started: Fri Jul 05 19:53:05 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off user_hw -c user_hw
-Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
+Info (11104): Parallel Compilation has detected 12 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 6 of the 6 physical processors detected instead.
+Info (12021): Found 2 design units, including 1 entities, in source file divisor.vhd
+    Info (12022): Found design unit 1: DIVISOR-x
+    Info (12023): Found entity 1: DIVISOR
+Info (12021): Found 2 design units, including 1 entities, in source file cont_7.vhd
+    Info (12022): Found design unit 1: cont_7-Behavioral
+    Info (12023): Found entity 1: cont_7
+Info (12021): Found 2 design units, including 1 entities, in source file cont_4.vhd
+    Info (12022): Found design unit 1: cont_4-rtl
+    Info (12023): Found entity 1: cont_4
+Info (12021): Found 2 design units, including 1 entities, in source file top_avalon.vhd
+    Info (12022): Found design unit 1: top_avalon-Y
+    Info (12023): Found entity 1: top_avalon
+Info (12021): Found 2 design units, including 1 entities, in source file reg32.vhd
+    Info (12022): Found design unit 1: reg32-Behavior
+    Info (12023): Found entity 1: reg32
+Info (12021): Found 2 design units, including 1 entities, in source file top_avalon_tb.vhd
+    Info (12022): Found design unit 1: tb_top_avalon-behavior
+    Info (12023): Found entity 1: tb_top_avalon
 Warning (12125): Using design file user_hw.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: user_hw-Y
     Info (12023): Found entity 1: user_hw
 Info (12127): Elaborating entity "user_hw" for the top level hierarchy
-Warning (12125): Using design file reg32.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: reg32-Behavior
-    Info (12023): Found entity 1: reg32
 Info (12128): Elaborating entity "reg32" for hierarchy "reg32:r1"
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -268,10 +283,10 @@ Info (21057): Implemented 147 device resources after synthesis - the final resou
     Info (21058): Implemented 38 input pins
     Info (21059): Implemented 33 output pins
     Info (21061): Implemented 76 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4645 megabytes
-    Info: Processing ended: Wed Jun 26 11:35:11 2024
-    Info: Elapsed time: 00:00:01
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4658 megabytes
+    Info: Processing ended: Fri Jul 05 19:53:07 2024
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 

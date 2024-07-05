@@ -13,7 +13,7 @@ ARCHITECTURE Behavior OF reg32 IS
 BEGIN
 PROCESS(resetn, clock)
 BEGIN
-	IF resetn = '0' THEN
+	IF resetn = '1' THEN
 		Q <= x"00000000";
 	elsif clock'EVENT AND clock = '1' then
 		if WE = '1' then
