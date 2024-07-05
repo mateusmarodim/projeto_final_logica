@@ -4,6 +4,10 @@
 	<pin_info>
 		<pin name="LED" source="Pin Planner" >
 		</pin>
+		<pin name="MOTOR" source="Pin Planner" >
+		</pin>
+		<pin name="LEDS_EXPORT" source="Pin Planner" >
+		</pin>
 	</pin_info>
 	<buses>
 	</buses>

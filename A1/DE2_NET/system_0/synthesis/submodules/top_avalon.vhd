@@ -7,8 +7,7 @@ PORT ( clock, resetn : IN STD_LOGIC;
        write_en      : IN  STD_LOGIC;
        readdata      : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
    	 add           : IN STD_LOGIC;
-       read_en       : IN STD_LOGIC;
-		 gpio_en			: OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
+       read_en       : IN STD_LOGIC
 
 );
 END top_avalon;
@@ -61,7 +60,7 @@ ARCHITECTURE Y OF top_avalon IS
 	signal r2_out: STD_LOGIC_VECTOR(31 DOWNTO 0);
 	
 	-- Divisor 50 --
-	--signal clock50: std_logic;
+	signal clock50: std_logic;
 	
 	-- Clockwise cron --
 	signal rot_clockwise: std_logic;
@@ -77,11 +76,25 @@ ARCHITECTURE Y OF top_avalon IS
 
 BEGIN
 
-	rot_clockwise <= r1_out(7);
-	rot_time <= r1_out(7 downto 0);
-
-	write_enable_r1 <= write_en and chipselect and (not add);
-	write_enable_r2 <= write_en and chipselect and (add);
+	--rot_clockwise <= r1_out(7);
+	--rot_time <= r1_out(7 downto 0);
+	
+	--write_enable_r1 <= write_en and chipselect and (not add);
+	--write_enable_r2 <= '1' when write_en and chipselect and (add) else '0';
+	
+	rot_time  <= writedata(7 downto 0);
+	rot_c_time	<= writedata(7 downto 0);
+	
+	cron_load <= write_en and chipselect and (not add);
+	cron_load_2 <= write_en and chipselect and (add);
+	
+	-- Div50 --
+	div50 : divisor
+	port map ( 
+		CLK	=> clock,
+		RST	=> resetn,
+		DIV50	=> clock50
+	);
 	
 	-- Clockwise --
 	cron1 : cont_7 
@@ -126,12 +139,12 @@ BEGIN
 	begin
 	end process;		
 
-	-- sinais de habilitação de leitura
+	-- sinais de habilitaÃ§Ã£o de leitura
 	read_enable_r1 <= read_en and chipselect and (not add);
 	read_enable_r1_n <= read_en and chipselect and add;
 	
-	readdata <= r1_out 	when read_enable_r1 = '1' else
-					r2_out	when read_enable_r1_n = '1' else
+	readdata <= ("000000000000000000000000" & cron_current_time) when read_enable_r1 = '1' else
+					("000000000000000000000000" & cron_current_time_2)	when read_enable_r1_n = '1' else
 					(others => '0');
 	-- led_en <= '1' when r1_out  /= "00000000000000000000000000000000" else '0';
 END Y;

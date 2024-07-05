@@ -169,15 +169,14 @@ module DE2_NET
 		////////////////////	GPIO	////////////////////////////
 		GPIO_0,							//	GPIO Connection 0
 		GPIO_1,							//	GPIO Connection 1
-		//////////////////// LEDS EXPORT KKKKKKK //////////////////////////
-		LEDS_EXPORT,
-		
-		TESTE_EXPORT
+		//////////////////// Avalons Outputs ////////////////////
+		CW_OUTPUT,
+		CCW_OUTPUT
 	);
 
 //////////////////////////
-output 			LEDS_EXPORT;
-output			TESTE_EXPORT;
+output 			CW_OUTPUT;
+output			CCW_OUTPUT;
 
 ////////////////////////	Clock Input	 	////////////////////////
 input			   CLOCK_27;				//	On Board 27 MHz
@@ -452,9 +451,12 @@ system_0 	u0	(
                  .txd_from_the_uart_0(UART_TXD),
 
 					 // leds
-					  .leds_export (LEDR[16]),
+					  //.leds_export (LEDR[16]),
 					  
-					  //.teste_export (LEDG[5])
+					  // Saida avalon
+					  // Além de definir aqui a saída, deve ser definido o sinal alí pra cima
+					  .ccw_output_export (CCW_OUTPUT),
+					  .cw_output_export (CW_OUTPUT)
                 );
 
 I2C_AV_Config 	u1	(	//	Host Side

@@ -1,103 +1,180 @@
 
-**** Build of configuration Nios II for project hello_led3 ****
+**** Build of configuration Nios II for project 13 ****
 
 make all 
-      1 [main] sh 13080 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] sh 3764 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] sh 8028 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] sh 12460 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] echo 13304 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
-Info: Building ../hello_led3_bsp/
+      1 [main] echo 15260 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../13_bsp/
 the public mailing list cygwin@cygwin.com
-make --no-print-directory -C ../hello_led3_bsp/
-      1 [main] pwd 22044 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+make --no-print-directory -C ../13_bsp/
+      1 [main] pwd 4392 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] sh 20000 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] sh 9220 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] sh 11644 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] sh 14440 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
 [BSP build complete]
-      1 [main] echo 15604 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] true 6688 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 6300 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[13 build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project 13 ****
+
+make all 
+      1 [main] sh 4224 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 14652 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 1936 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../13_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../13_bsp/
+      1 [main] pwd 11832 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 9732 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 14468 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] true 15812 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 15964 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[13 build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project 13 ****
+
+make all 
+      1 [main] sh 9052 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 16328 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 13764 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../13_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../13_bsp/
+      1 [main] pwd 5484 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 14068 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 3980 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] echo 11168 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
 Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
-      1 [main] mkdir 17740 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] mkdir 7372 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-nios2-elf-gcc -xc -MP -MMD -c -I../hello_led3_bsp//HAL/inc -I../hello_led3_bsp/ -I../hello_led3_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/hello_world_small.o hello_world_small.c
-      1 [main] true 8056 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../13_bsp//HAL/inc -I../13_bsp/ -I../13_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/hello_world_small.o hello_world_small.c
+      1 [main] true 14576 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] echo 20072 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] echo 11092 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Linking 13.elf
 the public mailing list cygwin@cygwin.com
-Info: Linking hello_led3.elf
-nios2-elf-g++  -T'../hello_led3_bsp//linker.x' -msys-crt0='../hello_led3_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../hello_led3_bsp/  -Wl,--defsym,exit=_exit -msmallc  -Wl,-Map=hello_led3.map   -Os -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o hello_led3.elf obj/default/hello_world_small.o -lm 
-nios2-elf-insert hello_led3.elf --thread_model hal --cpu_name cpu_0 --qsys true --simulation_enabled false --id 0 --sidp 0x1a82108 --timestamp 1720111226 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system_0 --quartus_project_dir "C:/projeto_final_logica/A1/DE2_NET" --jdi C:/projeto_final_logica/A1/DE2_NET/DE2_NET.jdi --sopcinfo C:/projeto_final_logica/A1/DE2_NET/system_0.sopcinfo
-      1 [main] sh 18960 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-g++  -T'../13_bsp//linker.x' -msys-crt0='../13_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../13_bsp/  -Wl,--defsym,exit=_exit -msmallc  -Wl,-Map=13.map   -Os -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o 13.elf obj/default/hello_world_small.o -lm 
+nios2-elf-insert 13.elf --thread_model hal --cpu_name cpu_0 --qsys true --simulation_enabled false --id 0 --sidp 0x1a82108 --timestamp 1720162899 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system_0 --quartus_project_dir "C:/projeto_final_logica/A1/DE2_NET" --jdi C:/projeto_final_logica/A1/DE2_NET/DE2_NET.jdi --sopcinfo C:/projeto_final_logica/A1/DE2_NET/system_0.sopcinfo
+      1 [main] sh 4224 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] uname 13700 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] uname 14560 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] sh 7296 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] sh 8076 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-Info: (hello_led3.elf) 3332 Bytes program size (code + initialized data).
-Info:                  8188 KBytes free for stack + heap.
-      2 [main] echo 21980 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: (13.elf) 3292 Bytes program size (code + initialized data).
+Info:          8188 KBytes free for stack + heap.
+      1 [main] echo 14016 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-Info: Creating hello_led3.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source hello_led3.elf >hello_led3.objdump
-      1 [main] sh 18028 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Creating 13.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source 13.elf >13.objdump
+      6 [main] sh 11400 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] sh 17464 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] sh 4996 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-[hello_led3 build complete]
+[13 build complete]
 
 **** Build Finished ****
 
-**** Build of configuration Nios II for project hello_led3 ****
+**** Build of configuration Nios II for project 13 ****
 
 make all 
-      1 [main] sh 2792 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] sh 5524 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] sh 9824 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] sh 6596 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] echo 19048 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
-Info: Building ../hello_led3_bsp/
+      1 [main] echo 11184 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../13_bsp/
 the public mailing list cygwin@cygwin.com
-make --no-print-directory -C ../hello_led3_bsp/
-      1 [main] pwd 21084 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+make --no-print-directory -C ../13_bsp/
+      1 [main] pwd 15320 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] sh 3192 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] sh 5412 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] sh 8760 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] sh 6220 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
 [BSP build complete]
-      1 [main] true 1664 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] echo 13668 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
 the public mailing list cygwin@cygwin.com
-      1 [main] sh 22988 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] mkdir 14520 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-[hello_led3 build complete]
+nios2-elf-gcc -xc -MP -MMD -c -I../13_bsp//HAL/inc -I../13_bsp/ -I../13_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/hello_world_small.o hello_world_small.c
+      1 [main] true 13636 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 15008 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Linking 13.elf
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../13_bsp//linker.x' -msys-crt0='../13_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../13_bsp/  -Wl,--defsym,exit=_exit -msmallc  -Wl,-Map=13.map   -Os -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o 13.elf obj/default/hello_world_small.o -lm 
+nios2-elf-insert 13.elf --thread_model hal --cpu_name cpu_0 --qsys true --simulation_enabled false --id 0 --sidp 0x1a82108 --timestamp 1720162899 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system_0 --quartus_project_dir "C:/projeto_final_logica/A1/DE2_NET" --jdi C:/projeto_final_logica/A1/DE2_NET/DE2_NET.jdi --sopcinfo C:/projeto_final_logica/A1/DE2_NET/system_0.sopcinfo
+      1 [main] sh 14804 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] uname 3980 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 3248 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (13.elf) 3292 Bytes program size (code + initialized data).
+Info:          8188 KBytes free for stack + heap.
+      1 [main] echo 10068 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Creating 13.objdump
+the public mailing list cygwin@cygwin.com
+nios2-elf-objdump --disassemble --syms --all-header --source 13.elf >13.objdump
+      1 [main] sh 4664 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 15628 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[13 build complete]
 
 **** Build Finished ****
 
-**** Build of configuration Nios II for project hello_led3 ****
+**** Build of configuration Nios II for project 13 ****
 
 make all 
-      1 [main] sh 20356 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] sh 3832 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] sh 9496 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] sh 15260 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] echo 8772 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
-Info: Building ../hello_led3_bsp/
+      1 [main] echo 15340 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../13_bsp/
 the public mailing list cygwin@cygwin.com
-make --no-print-directory -C ../hello_led3_bsp/
-      1 [main] pwd 18684 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+make --no-print-directory -C ../13_bsp/
+      1 [main] pwd 5456 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] sh 9336 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] sh 380 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] sh 14616 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] sh 11356 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
 [BSP build complete]
-      1 [main] true 15372 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] true 2028 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] sh 17960 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] sh 14056 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-[hello_led3 build complete]
+[13 build complete]
 
 **** Build Finished ****

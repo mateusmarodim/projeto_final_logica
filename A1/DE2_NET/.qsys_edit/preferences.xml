@@ -10,12 +10,12 @@
  <clocktable>
   <columns>
    <clockname preferredWidth="539" />
-   <clocksource preferredWidth="536" />
-   <frequency preferredWidth="533" />
+   <clocksource preferredWidth="535" />
+   <frequency preferredWidth="534" />
   </columns>
  </clocktable>
  <library expandedCategories="Library,Project" />
- <window width="1920" height="1020" x="0" y="12" />
+ <window width="1920" height="1032" x="0" y="0" />
  <hdlexample language="VERILOG" />
  <generation
    synthesis="VHDL"
