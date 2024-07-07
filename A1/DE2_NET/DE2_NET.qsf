@@ -414,8 +414,6 @@ set_location_assignment PIN_J25 -to GPIO_0[30]
 set_location_assignment PIN_J26 -to GPIO_0[31]
 set_location_assignment PIN_L23 -to GPIO_0[32]
 set_location_assignment PIN_L24 -to GPIO_0[33]
-set_location_assignment PIN_L25 -to GPIO_0[34]
-set_location_assignment PIN_L19 -to GPIO_0[35]
 set_location_assignment PIN_K25 -to GPIO_1[0]
 set_location_assignment PIN_K26 -to GPIO_1[1]
 set_location_assignment PIN_M22 -to GPIO_1[2]
@@ -451,7 +449,6 @@ set_location_assignment PIN_V25 -to GPIO_1[31]
 set_location_assignment PIN_V24 -to GPIO_1[32]
 set_location_assignment PIN_V23 -to GPIO_1[33]
 set_location_assignment PIN_W25 -to GPIO_1[34]
-set_location_assignment PIN_W23 -to GPIO_1[35]
 set_location_assignment PIN_Y15 -to FL_ADDR[20]
 set_location_assignment PIN_Y14 -to FL_ADDR[21]
 
@@ -544,11 +541,11 @@ set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name ENABLE_SIGNALTAP ON
 set_global_assignment -name USE_SIGNALTAP_FILE stp1.stp
 set_global_assignment -name SLD_FILE "D:/QuartusProjects/A1/DE2_NET/stp1_auto_stripped.stp"
-set_location_assignment PIN_AE12 -to CCW_OUTPUT
-set_location_assignment PIN_AE13 -to CW_OUTPUT
+set_location_assignment PIN_L19 -to CCW_OUTPUT
+set_location_assignment PIN_L25 -to CW_OUTPUT
+set_global_assignment -name QIP_FILE system_0/synthesis/system_0.qip
 set_global_assignment -name VHDL_FILE hw/divisor.vhd
 set_global_assignment -name VHDL_FILE hw/cont_7.vhd
-set_global_assignment -name QIP_FILE system_0/synthesis/system_0.qip
 set_global_assignment -name VHDL_FILE hw/top_avalon.vhd
 set_global_assignment -name VHDL_FILE hw/reg32.vhd
 set_global_assignment -name VERILOG_FILE I2C_AV_Config.v

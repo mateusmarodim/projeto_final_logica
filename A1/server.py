@@ -41,6 +41,11 @@ class MyServer:
     def _thread_loop(self):
         while True:
             self.send_msg(self.next_msg)
+            if (self.next_msg != "\0"):
+                msg = self.get_msg()
+                while (msg[:3] != b"END"):
+                    print(msg)
+                    msg = self.get_msg()
             self.next_msg = "\0"
             time.sleep(0.1)
 
@@ -65,7 +70,7 @@ if __name__ == "__main__":
             break
     
     print("Thread setup")
-    print("Digite um numero")
+    print("Digite o sentido e o tempo de ativação do motor: (ex (horário 15): h 15 | (anti-horário 15): ah 15")
     s.setup_thread()
     
     while True:

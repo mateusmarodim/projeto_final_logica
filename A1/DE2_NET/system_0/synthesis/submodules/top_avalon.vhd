@@ -87,17 +87,17 @@ BEGIN
 	
 	reset <= not resetn;
 	
-	write_enable_r1 <= write_en and chipselect and (not add(1)) and (not add(0));
-	write_enable_r2 <= write_en and chipselect and (not add(1)) and (    add(0));
+	write_enable_r1 <= write_en and chipselect and (not add(1)) and (not add(0)); -- add 00 (0)
+	write_enable_r2 <= write_en and chipselect and (not add(1)) and (    add(0)); -- add 01 (1)
 	
-	read_enable_r1 <= read_en and chipselect and (not add(1)) and (not add(0));
-	read_enable_r2 <= read_en and chipselect and (not add(1)) and (    add(0));
+	read_enable_r1 <= read_en and chipselect and (not add(1)) and (not add(0)); -- add 00 (0) 
+	read_enable_r2 <= read_en and chipselect and (not add(1)) and (    add(0)); -- add 01 (1)
 	
-	cron_load_1 <= write_en and chipselect and      add(1)  and not add(0);
-	cron_load_2 <= write_en and chipselect and      add(1)  and     add(0);
+	cron_load_1 <= write_en and chipselect and      add(1)  and not add(0); -- add 10 (2)
+	cron_load_2 <= write_en and chipselect and      add(1)  and     add(0); -- add 11 (3)
 	
-	cron_rd_en_1 <= read_en and chipselect and (    add(1)) and (not add(0));
-	cron_rd_en_2 <= read_en and chipselect and      add(1)  and  	  add(0);
+	cron_rd_en_1 <= read_en and chipselect and (    add(1)) and (not add(0)); -- add 10 (2)
+	cron_rd_en_2 <= read_en and chipselect and      add(1)  and  	  add(0); -- add 11 (3)
 	
 
 	
