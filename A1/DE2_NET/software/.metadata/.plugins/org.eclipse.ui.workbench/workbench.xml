@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="29" version="2.0">
+<workbench progressCount="36" version="2.0">
 <workbenchAdvisor/>
-<window height="1028" maximized="true" width="976" x="-8" y="0">
+<window height="1028" width="976" x="-8" y="0">
 <fastViewData fastViewLocation="1024"/>
 <intro standby="true"/>
 <perspectiveBar>
@@ -9,7 +9,7 @@
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="157" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="268" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="183" y="22"/>
 <coolItem id="org.eclipse.cdt.ui.buildConfigActionSet" itemType="typeToolBarContribution" x="97" y="22"/>
@@ -30,13 +30,18 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="iniche_init.c" partName="iniche_init.c" path="C:/proj_final/A1/DE2_NET/software/teste_sock/iniche_init.c" title="iniche_init.c" tooltip="teste_sock/iniche_init.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/teste_sock/iniche_init.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7037" selectionTopPixel="3916"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="iniche_init.c" partName="iniche_init.c" path="C:/proj_final/A1/DE2_NET/software/projeto_final/iniche_init.c" title="iniche_init.c" tooltip="projeto_final/iniche_init.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/projeto_final/iniche_init.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2407" selectionTopPixel="533"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="network_utilities.c" partName="network_utilities.c" path="C:/proj_final/A1/DE2_NET/software/projeto_final/network_utilities.c" title="network_utilities.c" tooltip="projeto_final/network_utilities.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/projeto_final/network_utilities.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="9942" selectionTopPixel="5981"/>
 </editor>
 </editors>
 <views>
@@ -54,7 +59,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors (1 item)"/>
+<category IMemento.internal.id="Warnings (7 items)"/>
 <category IMemento.internal.id="Warnings"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
@@ -81,7 +86,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="com.altera.sbtgui.ui.cPerspective">
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="com.altera.sbtgui.ui.cPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.cdt.internal.ui.CPerspectiveFactory" id="org.eclipse.cdt.ui.CPerspective" label="C/C++"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -224,21 +229,16 @@
 <new_wizard_action id="com.altera.sbtgui.ui.newLibrary"/>
 <perspective_action id="com.altera.sbtgui.ui.debugPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <fastViewBars>
-<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB-0].1.0" style="0">
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@17d56b" orientation="512" selectedTabId="org.eclipse.ui.internal.introview" style="0">
 <fastViews>
-<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
-<view id="org.eclipse.ui.views.TaskList" ratio="0.3"/>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.29965556"/>
-<view id="org.eclipse.ui.views.PropertySheet" ratio="0.3"/>
-<view id="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB-0].1.0" ratio="0.29965556"/>
-</fastViews>
-</fastViewBar>
-<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@17d56b" orientation="512" selectedTabId="org.eclipse.search.ui.views.SearchView" style="0">
-<fastViews>
-<view id="org.eclipse.ui.internal.introview" ratio="0.3"/>
 <view id="org.eclipse.search.ui.views.SearchView" ratio="0.3"/>
+<view id="org.eclipse.ui.internal.introview" ratio="0.1464191"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
@@ -256,7 +256,7 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@17d56b" ratio="0.5786695" ratioLeft="548" ratioRight="399" relationship="2" relative="topLeft">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
@@ -264,17 +264,23 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.16843784" ratioLeft="317" ratioRight="1565" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottom" ratio="0.6635945" ratioLeft="576" ratioRight="292" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<info part="org.eclipse.ui.editorss" ratio="0.14134276" ratioLeft="160" ratioRight="972" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.6975169" ratioLeft="618" ratioRight="268" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB-0].1.0" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB-0].1.0" label="Nios II Console"/>
 <page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:*" label="LabelNotFound"/>
 <page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView" label="LabelNotFound"/>
-<page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB-0].1.0" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
 </folder>
 </info>
 <info folder="true" part="topRight" ratio="0.76754385" ratioLeft="350" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">
@@ -292,17 +298,9 @@
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/teste/hello_world.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/teste_sock/iniche_init.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/teste_sock_bsp/iniche/src/nios2/osportco.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/projeto_final/iniche_init.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/projeto_final/network_utilities.c"/>
 </editors>
-<item historyLabel="osportco.c" index="2">
-<position info="not_deleted" x="7483" y="50"/>
-</item>
-<item historyLabel="iniche_init.c" index="1">
-<position info="not_deleted" x="7235" y="0"/>
-</item>
-<item historyLabel="hello_world.c" index="0">
-<position info="not_deleted" x="160" y="0"/>
-</item>
 <item historyLabel="iniche_init.c" index="1">
 <position/>
 </item>
@@ -441,8 +439,17 @@
 <item historyLabel="iniche_init.c" index="1">
 <position info="not_deleted" x="6942" y="0"/>
 </item>
-<item active="true" historyLabel="iniche_init.c" index="1">
-<position info="not_deleted" x="6945" y="0"/>
+<item historyLabel="iniche_init.c" index="1">
+<position info="not_deleted" x="7063" y="0"/>
+</item>
+<item historyLabel="iniche_init.c" index="1">
+<position info="not_deleted" x="0" y="8510"/>
+</item>
+<item historyLabel="iniche_init.c" index="2">
+<position info="not_deleted" x="2407" y="0"/>
+</item>
+<item active="true" historyLabel="network_utilities.c" index="3">
+<position info="not_deleted" x="9952" y="18"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -469,6 +476,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="network_utilities.c" tooltip="projeto_final/network_utilities.c">
+<persistable path="/projeto_final/network_utilities.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="iniche_init.c" tooltip="projeto_final/iniche_init.c">
+<persistable path="/projeto_final/iniche_init.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="osportco.c" tooltip="teste_sock_bsp/iniche/src/nios2/osportco.c">
 <persistable path="/teste_sock_bsp/iniche/src/nios2/osportco.c"/>
 </file>

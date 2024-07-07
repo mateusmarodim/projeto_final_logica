@@ -428,3 +428,225 @@ java.lang.RuntimeException: WARNING: Prevented recursive attempt to activate par
 
 !ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 03:50:41.768
 !MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1a82108 /cygdrive/c/proj_final/A1/DE2_NET/software/teste_sock/teste_sock.elf]
+!SESSION 2024-07-07 13:49:36.650 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.ui 4 4 2024-07-07 13:49:48.435
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2024-07-07 13:49:51.307
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2024-07-07 13:49:51.307
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2024-07-07 13:49:51.307
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2024-07-07 13:49:51.307
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2024-07-07 13:49:51.307
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2024-07-07 13:49:51.307
+!MESSAGE Unable to restore perspective: Workspace - Nios II.
+!SUBENTRY 2 org.eclipse.ui 0 0 2024-07-07 13:49:51.307
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2024-07-07 13:49:51.307
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2024-07-07 13:49:51.307
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-07-07 13:49:51.307
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-07-07 13:49:51.307
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-07-07 13:49:51.307
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-07-07 13:49:51.307
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-07-07 13:49:51.307
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-07-07 13:49:51.307
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-07-07 13:49:51.307
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2024-07-07 13:49:51.307
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2024-07-07 13:49:51.307
+!MESSAGE OK
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 13:53:13.344
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1a82108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 13:53:15.265
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1a82108 /cygdrive/c/proj_final/A1/DE2_NET/software/teste_sock/teste_sock.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:02:04.053
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1a82108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:02:05.836
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1a82108 /cygdrive/c/proj_final/A1/DE2_NET/software/teste_sock/teste_sock.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:02:56.669
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1a82108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:02:58.572
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1a82108 /cygdrive/c/proj_final/A1/DE2_NET/software/teste_sock/teste_sock.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:05:37.765
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1a82108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:05:39.562
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1a82108 /cygdrive/c/proj_final/A1/DE2_NET/software/teste_sock/teste_sock.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:06:09.468
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1a82108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:06:11.249
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1a82108 /cygdrive/c/proj_final/A1/DE2_NET/software/teste_sock/teste_sock.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:08:27.538
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1a82108]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2024-07-07 14:08:29.289
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x1a82108] return code: 2, no processors found
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:08:29.320
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1a82108 /cygdrive/c/proj_final/A1/DE2_NET/software/teste_sock/teste_sock.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2024-07-07 14:08:31.351
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x1a82108, /cygdrive/c/proj_final/A1/DE2_NET/software/teste_sock/teste_sock.elf] return code: 2, no processors found
+
+!ENTRY com.altera.sbtgui.launch 4 0 2024-07-07 14:08:31.351
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:08:45.132
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1a82108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:08:46.929
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1a82108 /cygdrive/c/proj_final/A1/DE2_NET/software/teste_sock/teste_sock.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:20:23.201
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1a82108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:20:24.966
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1a82108 /cygdrive/c/proj_final/A1/DE2_NET/software/teste_sock/teste_sock.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:20:54.094
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1a82108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:20:55.891
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1a82108 /cygdrive/c/proj_final/A1/DE2_NET/software/teste_sock/teste_sock.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:25:10.260
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1a82108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:25:12.049
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1a82108 /cygdrive/c/proj_final/A1/DE2_NET/software/teste_sock/teste_sock.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:34:47.024
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1a82108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:34:50.605
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1a82108 /cygdrive/c/proj_final/A1/DE2_NET/software/teste_sock/teste_sock.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:36:25.872
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1a82108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:36:29.633
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1a82108 /cygdrive/c/proj_final/A1/DE2_NET/software/teste_sock/teste_sock.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:38:59.055
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1a82108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 14:39:02.689
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1a82108 /cygdrive/c/proj_final/A1/DE2_NET/software/teste_sock/teste_sock.elf]
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-07 15:04:03.315
+!MESSAGE Indexed 'projeto_final_bsp' (233 sources, 179 headers) in 3.88 sec: 10,617 declarations; 45,085 references; 95 unresolved inclusions; 9 syntax errors; 494 unresolved names (0.88%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-07 15:04:03.982
+!MESSAGE Indexed 'projeto_final' (6 sources, 74 headers) in 0.67 sec: 3,175 declarations; 3,809 references; 22 unresolved inclusions; 8 syntax errors; 133 unresolved names (1.87%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 20:24:22.497
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1a82108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-07-07 20:24:24.407
+!MESSAGE Executing: [D:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1a82108 /cygdrive/c/proj_final/A1/DE2_NET/software/projeto_final/projeto_final.elf]
+
+!ENTRY org.eclipse.osgi 4 0 2024-07-07 20:28:25.925
+!MESSAGE Unexpected exception occurred loading manifest for bundle at the location: reference:file:plugins/org.eclipse.cdt.build.crossgcc_1.0.2.201202111925.jar.
+!STACK 0
+org.osgi.framework.BundleException: An error occurred while reading the manifest file.
+	at org.eclipse.osgi.framework.util.Headers.parseManifest(Headers.java:259)
+	at org.eclipse.osgi.internal.baseadaptor.AdaptorUtil.loadManifestFrom(AdaptorUtil.java:191)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseStorageHook.getGeneratedManifest0(EclipseStorageHook.java:410)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseStorageHook.getGeneratedManifest(EclipseStorageHook.java:397)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseStorageHook.createCachedManifest(EclipseStorageHook.java:392)
+	at org.eclipse.core.runtime.internal.adaptor.CachedManifest.getManifest(CachedManifest.java:42)
+	at org.eclipse.core.runtime.internal.adaptor.CachedManifest.get(CachedManifest.java:142)
+	at org.eclipse.core.runtime.internal.adaptor.CachedManifest.get(CachedManifest.java:1)
+	at org.eclipse.osgi.framework.internal.core.ManifestLocalization.lookupResourceBundle(ManifestLocalization.java:104)
+	at org.eclipse.osgi.framework.internal.core.ManifestLocalization.getResourceBundle(ManifestLocalization.java:91)
+	at org.eclipse.osgi.framework.internal.core.ManifestLocalization.getHeaders(ManifestLocalization.java:52)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getHeaders(AbstractBundle.java:964)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getHeaders(AbstractBundle.java:911)
+	at org.eclipse.epp.usagedata.internal.gathering.monitors.BundleUsageMonitor.getBundleVersion(BundleUsageMonitor.java:96)
+	at org.eclipse.epp.usagedata.internal.gathering.monitors.BundleUsageMonitor.getBundleVersion(BundleUsageMonitor.java:92)
+	at org.eclipse.epp.usagedata.internal.gathering.monitors.BundleUsageMonitor$1.bundleChanged(BundleUsageMonitor.java:52)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:847)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+Caused by: java.util.zip.ZipException: ZipFile closed
+	at java.util.zip.ZipFile.ensureOpenOrZipException(Unknown Source)
+	at java.util.zip.ZipFile.access$1100(Unknown Source)
+	at java.util.zip.ZipFile$ZipFileInputStream.read(Unknown Source)
+	at java.util.zip.ZipFile$1.fill(Unknown Source)
+	at java.util.zip.InflaterInputStream.read(Unknown Source)
+	at org.eclipse.osgi.baseadaptor.bundlefile.ZipBundleEntry$ZipBundleEntryInputStream.read(ZipBundleEntry.java:157)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at org.eclipse.osgi.util.ManifestElement.parseBundleManifest(ManifestElement.java:516)
+	at org.eclipse.osgi.framework.util.Headers.parseManifest(Headers.java:257)
+	... 18 more
+Root exception:
+java.util.zip.ZipException: ZipFile closed
+	at java.util.zip.ZipFile.ensureOpenOrZipException(Unknown Source)
+	at java.util.zip.ZipFile.access$1100(Unknown Source)
+	at java.util.zip.ZipFile$ZipFileInputStream.read(Unknown Source)
+	at java.util.zip.ZipFile$1.fill(Unknown Source)
+	at java.util.zip.InflaterInputStream.read(Unknown Source)
+	at org.eclipse.osgi.baseadaptor.bundlefile.ZipBundleEntry$ZipBundleEntryInputStream.read(ZipBundleEntry.java:157)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at org.eclipse.osgi.util.ManifestElement.parseBundleManifest(ManifestElement.java:516)
+	at org.eclipse.osgi.framework.util.Headers.parseManifest(Headers.java:257)
+	at org.eclipse.osgi.internal.baseadaptor.AdaptorUtil.loadManifestFrom(AdaptorUtil.java:191)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseStorageHook.getGeneratedManifest0(EclipseStorageHook.java:410)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseStorageHook.getGeneratedManifest(EclipseStorageHook.java:397)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseStorageHook.createCachedManifest(EclipseStorageHook.java:392)
+	at org.eclipse.core.runtime.internal.adaptor.CachedManifest.getManifest(CachedManifest.java:42)
+	at org.eclipse.core.runtime.internal.adaptor.CachedManifest.get(CachedManifest.java:142)
+	at org.eclipse.core.runtime.internal.adaptor.CachedManifest.get(CachedManifest.java:1)
+	at org.eclipse.osgi.framework.internal.core.ManifestLocalization.lookupResourceBundle(ManifestLocalization.java:104)
+	at org.eclipse.osgi.framework.internal.core.ManifestLocalization.getResourceBundle(ManifestLocalization.java:91)
+	at org.eclipse.osgi.framework.internal.core.ManifestLocalization.getHeaders(ManifestLocalization.java:52)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getHeaders(AbstractBundle.java:964)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getHeaders(AbstractBundle.java:911)
+	at org.eclipse.epp.usagedata.internal.gathering.monitors.BundleUsageMonitor.getBundleVersion(BundleUsageMonitor.java:96)
+	at org.eclipse.epp.usagedata.internal.gathering.monitors.BundleUsageMonitor.getBundleVersion(BundleUsageMonitor.java:92)
+	at org.eclipse.epp.usagedata.internal.gathering.monitors.BundleUsageMonitor$1.bundleChanged(BundleUsageMonitor.java:52)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:847)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)

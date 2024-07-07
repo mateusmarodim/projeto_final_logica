@@ -44,7 +44,7 @@ class MyServer:
             if (self.next_msg != "\0"):
                 msg = self.get_msg()
                 while (msg[:3] != b"END"):
-                    print(msg)
+                    print(msg.decode('utf-8'))
                     msg = self.get_msg()
             self.next_msg = "\0"
             time.sleep(0.1)

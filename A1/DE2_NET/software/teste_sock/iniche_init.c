@@ -196,17 +196,17 @@ void SSSInitialTask(void *task_data)
 				while (i != 0) {
 					usleep(1000000);
 					i = IORD(0, cron_addr);
-					char *str;
-					snprintf(str, sizeof(str), "Tempo: %d\r\n", i);
-					printf("Enviando: %s\n", str);
-					if (send(SocketFD, str, sizeof(str), 0) < 0) {
+					char str[16];
+					int length = snprintf(str, sizeof(str), "Tempo: %d\r\n\0", i);
+					printf("Enviando: %s - %d\n", str, length);
+					if (send(SocketFD, str, length, 0) < 0) {
 						printf("Enviado: %s\n", str);
 					}
 
 				}
 				char str[32] = "END\0";
 
-				if (send(SocketFD, str, sizeof(str), 0)< 0) {
+				if (send(SocketFD, str, strlen(str), 0)< 0) {
 					printf("Enviado: %s\n", str);
 				}
 
